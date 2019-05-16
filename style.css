@@ -1,4 +1,15 @@
+@font-face {
+    font-family: "font";
+    src: url('font/yekan-font/Yekan.eot');
+    src: url('font/yekan-font/Yekan.eot?#iefix') format('FontName-opentype'),
+    url('font/yekan-font/Yekan.woff') format('woff'),
+    url('font/yekan-font/Yekan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body, html {
+    font-family: 'font';
     height: 100%;
     margin-top:70px;
     height: auto;
@@ -51,3 +62,6 @@ div {
 .jumbotron {
     background: #4c4a4a;
 }
+
+
+
